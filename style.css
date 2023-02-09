@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+section {
+  margin: 0 100px;
+}
+header {
+  background-image: url("./images/banner/banner1.png");
+  height: 100vh;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.header {
+  width: 500px;
+  padding: 200px;
+}
+.header > h1 {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  color: rgba(21, 20, 20, 1);
+}
+.header > p {
+  color: rgba(68, 67, 67, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.header > button {
+  background: rgba(241, 91, 34, 1);
+  color: rgb(255, 255, 255);
+  padding: 20px 26px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  border: 0;
+  border-radius: 5px;
+}
+.failure {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 130px;
+}
+.failure-img {
+  width: 451px;
+  left: 277px;
+}
+.failure-details {
+  width: 416px;
+}
+.failure-details > h1 {
+  color: rgba(21, 20, 20, 1);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+.failure-details > p {
+  color: rgba(68, 67, 67, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.failure-descrption {
+  list-style: none;
+  padding: 0;
+  margin-top: 8px;
+  color: rgba(68, 67, 67, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
