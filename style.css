@@ -5,6 +5,10 @@
 section {
   margin: 0 100px;
 }
+footer {
+  background: #000;
+  color: white;
+}
 header {
   background-image: url("./images/banner/banner1.png");
   height: 100vh;
@@ -77,4 +81,112 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+}
+.plans {
+  display: flex;
+  justify-content: space-evenly;
+}
+.plans-details {
+  text-align: center;
+}
+.plans-details h1 {
+  color: rgba(21, 20, 20, 1);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.plans-details p {
+  color: rgba(115, 114, 114, 1);
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+}
+.positive {
+  margin-top: 130px;
+  margin-left: 250px;
+  margin-bottom: 130px;
+  background-image: url("images/gradient2.png"), url("images/watch.png");
+  background-repeat: no-repeat;
+  width: 1140px;
+  height: 300px;
+}
+.positive-description {
+  width: 459px;
+  height: 182px;
+  padding: 59px 617px 59px 64px;
+}
+.positive-description > h1 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+.positive-description > button {
+  color: rgba(255, 255, 255, 1);
+  color: rgba(241, 91, 34, 1);
+  width: 160px;
+  height: 64px;
+  margin-top: 24px;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+}
+.footer {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+.footer-description {
+  margin: 130px 130px 100px;
+  width: 500px;
+}
+.footer-description > h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+}
+.footer-description > p {
+  color: rgba(255, 255, 255, 0.755);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 16px;
+}
+.footer-description > img {
+  width: 47px;
+  height: 46px;
+  margin-right: 17px;
+  margin-top: 32px;
+}
+.footer-form {
+  margin-top: 130px;
+  margin-right: 229px;
+}
+.footer-form > h1 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+}
+.footer-form > input {
+  background: #151414;
+  color: #e6e6e6;
+  padding: 22px 21px;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 8px;
+  margin-top: 21px;
+  margin-bottom: 20px;
+  border: 1px solid #ffffff;
+}
+.footer-form > button {
+  padding: 20px 36px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #f15b22;
+  border: 0;
+  border-radius: 8px;
 }
